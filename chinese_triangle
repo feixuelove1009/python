@@ -37,6 +37,8 @@ if __name__ == "__main__":
         else:
             print("输入错误！")
             
+
+# 下面是一个更加简洁优雅的实现			
 # def pas_triangles():
 #     a = [1]
 #     while True:
