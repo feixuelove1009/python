@@ -1,0 +1,79 @@
+/*自定义样式*/
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei,
+    Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+#title h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+#menu{
+    margin: 10px;
+}
+#body{
+    height:500px;
+}
+#menu button{
+    font-size: 20px;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    background: #fff url(../imgs/blue.png);
+    height: 22px;
+    vertical-align: middle;
+    width: 22px;
+    cursor: pointer;
+}
+input[type="checkbox"]:focus,
+input[type="checkbox"]:hover {
+    background-position: -24px;
+    outline: none;
+}
+input[type="checkbox"]:checked {
+    background-position: -48px 0;
+}
+input[type="checkbox"][disabled] {
+    background-position: -72px 0;
+}
+input[type="checkbox"][disabled]:checked {
+    background-position: -96px 0;
+}
+table{
+    font-size: 18px;
+}
+thead{
+    font-weight: 600;
+}
+tr td:first-child{
+    text-align: center;
+}
+tr .td3,.td4,.td5{
+    text-align: center;
+}
+tr .td4,.td5{
+    cursor: pointer;
+}
+tr .td1,.td3,.td4,.td5{
+    width:8%;
+}
+#counter{
+    margin-top:40px;
+    margin-left:0;
+    float:left;
+    font-size: 18px;
+}
+#nav{
+    float:right;
+    margin: 10px;
+}
+nav{
+    margin-right:-10px;
+}
+nav ul li{
+    cursor: pointer;
+}
+.hide{
+    display:none;
+}
